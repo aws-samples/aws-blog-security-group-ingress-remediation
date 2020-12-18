@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:AuthorizeSecurityGroupEgress",
+                "ec2:AuthorizeSecurityGroupIngress",
+                "ec2:DescribeInstances",
+                "ec2:CreateSecurityGroup",
+                "ec2:ModifyNetworkInterfaceAttribute",
+                "ec2:DescribeSecurityGroups",
+                "config:GetComplianceDetailsByResource"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
