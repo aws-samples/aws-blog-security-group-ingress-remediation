@@ -2,7 +2,7 @@
   "Version": "1.0",
   "Parameters": {
     "RuleName": "SECURITY_GROUP_INGRESS_REMEDIATION",
-    "SourceRuntime": "python3.7",
+    "SourceRuntime": "python3.10",
     "CodeKey": "SECURITY_GROUP_INGRESS_REMEDIATION.zip",
     "InputParameters": "{}",
     "OptionalParameters": "{}",
